@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="stylesform.css">
+    <style>
+        td ,tr{
+            border-style:none;
+            padding: 15px;
+            border-spacing: 30px;
+        
+        }
+
+    </style>
+    
+</head>
+<body>
+    <form method="GET">
+        <h1><center><b>CONTACT FORM</b></center></h1>
+        <fieldset>
+          
+        <legend>Details</legend>
+        <center>
+            <table style="width:50%" border="30">
+                <tr>
+         <td><p>ENTER YOUR NAME : </p></td>
+         <td><p><input type="text" name="name" placeholder="Username"></p></td>
+        </tr>
+
+        <tr>
+            
+            <td><p>ENTER YOUR CONTACT NUMBER * : </p></td>
+            <td><p><input type="tel" name="contact number" placeholder="Contact details"></p></td>
+            
+        </tr>
+
+        <tr>
+            <td><p>ENTER YOUR EMAIL : </p></td>
+            <td><p><input type="email" name="Email" placeholder="Your email"></p></td>
+        </tr>
+
+        <tr>
+            
+                <td>SELECT GENDER : </td>
+            <td><input type="radio" id="Male" name="gender">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label>
+                <input type="radio" id="Other" name="gender">
+                <label for="Other">Other</label></td>
+        
+    </tr><br>
+
+        <tr>
+            <td><label for="STATE">CHOOSE A STATE &nbsp;&nbsp;</label></td>
+            <td><select name="STATE" id="state">
+                <option value=" ">--select state--</option>
+                <option value="DELHI">DELHI</option>
+                <OPTION value="UTTAR PRADESH">UTTAR PRADESH</OPTION>
+                <option value="UTTARAKHAND">UTTARAKHAND</option>
+                <option value="MUMBAI">MUMBAI</option>
+                <option value="KERALA">KERALA</option>
+                <option value="HARYANA">HARYANA</option>
+                <option value="ANDHRA PRADESH">ANDHRA PRADESH</option>
+            </select></td>
+        </tr><br>
+        
+        <tr>
+            <td><p>ENTER YOUR INTEREST :</p></td>
+            <td><input type="text" name="interest" placeholder="Your interest"></td>
+        </tr>
+        </table></center>
+<br><center><button type="submit">SUBMIT</button></center>
+  </fieldset>
+  
+
+    </form>
+    
+</body>
+</html>
